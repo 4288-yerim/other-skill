@@ -1,0 +1,6 @@
+{
+  "name": "others",
+  "description": "지금 쓰는 도구·모델 말고 같은 용도의 대안을 웹 검색과 공식 문서 링크로 추천",
+  "version": "0.1.0",
+  "author": { "name": "4288-yerim" }
+}
