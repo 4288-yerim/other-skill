@@ -64,10 +64,10 @@ PaddleOCR로 번호판을 읽는 코드를 넣었을 때의 결과입니다. (�
 
 | 이름 | 한 줄 특징 | 지금 것보다 나은 점 | 못한 점 | 난이도 | 공식 문서 |
 |---|---|---|---|---|---|
-| RapidOCR | PaddleOCR 모델을 ONNX로 돌리는 경량 툴킷 | `paddlepaddle` 설치 문제를 피할 가능성 | 문서가 주로 중국어 | 쉬움 | https://cdn.jsdelivr.net/gh/rapidai/rapidocr@main/README.md |
-| EasyOCR | PyTorch 기반 다국어 OCR | 한글+영어를 간단한 API로 인식 | 번호판 정확도는 직접 비교 필요 | 쉬움 | https://pypi.org/project/easyocr/1.2 |
-| Tesseract | 오래된 오픈소스 OCR 엔진 | 설치가 가볍고 CPU만으로 동작 | 번호판 같은 짧은 글자에 약할 것으로 예상 | 중간 | https://packages.debian.org/sk/tesseract-ocr-kor |
-| Google Cloud Vision | 클라우드 API | 로컬 설치 문제 없음 | 비용, 인터넷 필요 | 중간 | https://cloud.google.com/vision/pricing?hl=hu |
+| RapidOCR | PaddleOCR 모델을 ONNX로 돌리는 경량 툴킷 | `paddlepaddle` 설치 문제를 피할 가능성 | 문서가 주로 중국어 | 쉬움 | [GitHub README](https://cdn.jsdelivr.net/gh/rapidai/rapidocr@main/README.md) |
+| EasyOCR | PyTorch 기반 다국어 OCR | 한글+영어를 간단한 API로 인식 | 번호판 정확도는 직접 비교 필요 | 쉬움 | [PyPI](https://pypi.org/project/easyocr/1.2) |
+| Tesseract | 오래된 오픈소스 OCR 엔진 | 설치가 가볍고 CPU만으로 동작 | 번호판 같은 짧은 글자에 약할 것으로 예상 | 중간 | [Debian 패키지](https://packages.debian.org/sk/tesseract-ocr-kor) |
+| Google Cloud Vision | 클라우드 API | 로컬 설치 문제 없음 | 비용, 인터넷 필요 | 중간 | [가격 페이지](https://cloud.google.com/vision/pricing?hl=hu) |
 
 **상황별 추천:** 설치 문제만 피하려면 RapidOCR, 빠르게 비교하려면 EasyOCR, 안정성이 우선이면 Google Cloud Vision.
 
