@@ -1,6 +1,6 @@
 ---
 name: others
-description: 지금 쓰고 있는 모델·라이브러리·도구·방식 말고 같은 용도의 대안을 웹 검색으로 찾아 공식 문서 링크와 함께 비교표로 추천한다. 코드, 파일 경로, 말로 설명한 내용 모두 입력 가능. /others 로 직접 호출할 때만 사용.
+description: 지금 쓰는 도구/모델 말고 같은 용도의 대안을 추천
 disable-model-invocation: true
 ---
 
