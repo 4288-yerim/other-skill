@@ -74,11 +74,3 @@ PaddleOCR로 번호판을 읽는 코드를 넣었을 때의 결과입니다. (�
 **먼저 시도할 것:** RapidOCR. 같은 PaddleOCR 모델을 쓰므로 현재 결과와 바로 비교할 수 있습니다.
 
 마지막에는 참고한 출처 링크(Sources)가 함께 붙습니다.
-
-## 구조
-
-```
-.claude-plugin/marketplace.json   # 마켓플레이스 (other-skill)
-.claude-plugin/plugin.json        # 플러그인 (others)
-skills/others/SKILL.md            # 스킬 본문
-```
